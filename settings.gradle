@@ -1,0 +1,4 @@
+include ':app',
+        ':lib-core',
+        ':lib-mvp_pattern',
+        ':demo-mvp_pattern', ':lib-reactive', ':lib-widget', ':lib-component'
