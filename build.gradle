@@ -16,11 +16,14 @@ buildscript {
 }
 
 allprojects {
+//    apply plugin: 'java'
+    sourceCompatibilityVersion = JavaVersion.VERSION_1_7
+    targetCompatibilityVersion = JavaVersion.VERSION_1_7
     repositories {
         jcenter()
     }
 }
-
-task clean(type: Delete) {
-    delete rootProject.buildDir
-}
+//
+//task clean(type: Delete) {
+//    delete rootProject.buildDir
+//}

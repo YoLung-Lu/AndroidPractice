@@ -6,7 +6,6 @@ package com.example.luyolung.android_practice;
 
 
 import android.content.Intent;
-import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
@@ -17,15 +16,12 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.AdapterView;
 import android.widget.ListView;
-import android.widget.Toast;
-
 import com.my.comp.TakePhotoDelegateActivity;
 import com.my.core.protocol.IDrawerViewLayout;
 import com.my.core.protocol.IProgressBarView;
 import com.my.core.util.ViewUtil;
 import com.my.widget.adapter.SampleMenuAdapter;
 import com.my.widget.adapter.SampleMenuAdapter.SampleMenuItem;
-import java.util.Locale;
 
 public class StartActivity
     extends AppCompatActivity
@@ -175,12 +171,15 @@ public class StartActivity
 //                        }
 //                    }),
                 new SampleMenuItem(
-                    "AlertManager",
-                    "(constructing)",
+                    "Note Card",
+                    "An application for adding note.\n" +
+                    "With MVP pattern.",
                     new OnClickListener() {
                         @Override
                         public void onClick(View v) {
-
+//                            startActivity(new Intent(StartActivity.this,
+//                                NotesActivity.class)
+//                                .setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP));
                         }
                     }),
                 new SampleMenuItem(

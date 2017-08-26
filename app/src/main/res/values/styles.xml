@@ -10,6 +10,9 @@
         <item name="android:activityOpenExitAnimation">@null</item>
         <item name="android:activityCloseExitAnimation">@null</item>
         <item name="android:activityCloseEnterAnimation">@null</item>
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
     </style>
 
     <!-- common Activity theme without system tool bar -->
@@ -42,5 +45,7 @@
     </style>
 
     <style name="ThemeOverlay.ToolBarPopup" parent="ThemeOverlay.AppCompat.Light">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
     </style>
 </resources>
