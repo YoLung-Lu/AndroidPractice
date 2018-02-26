@@ -16,6 +16,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.AdapterView;
 import android.widget.ListView;
+import com.example.luyolung.android_practice.activity.ConstraintLayoutActivity;
 import com.my.comp.TakePhotoDelegateActivity;
 import com.my.core.protocol.IDrawerViewLayout;
 import com.my.core.protocol.IProgressBarView;
@@ -171,15 +172,14 @@ public class StartActivity
 //                        }
 //                    }),
                 new SampleMenuItem(
-                    "Note Card",
-                    "An application for adding note.\n" +
-                    "With MVP pattern.",
+                    "Constraint Layout",
+                    "Practice on every kind of constraint relationship.\n",
                     new OnClickListener() {
                         @Override
                         public void onClick(View v) {
-//                            startActivity(new Intent(StartActivity.this,
-//                                NotesActivity.class)
-//                                .setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP));
+                            startActivity(new Intent(StartActivity.this,
+                                ConstraintLayoutActivity.class)
+                                .setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP));
                         }
                     }),
                 new SampleMenuItem(

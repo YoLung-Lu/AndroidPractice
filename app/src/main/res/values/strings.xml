@@ -1,7 +1,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Common -->
     <string name="app_name" tools:ignore="MissingTranslation">YOLO</string>
-    <string name="file_provider_authority" tools:ignore="MissingTranslation">com.my.boilerplate</string>
+    <string name="file_provider_authority" tools:ignore="MissingTranslation">com.luyolung.android_practice</string>
     <string name="loading" tools:ignore="MissingTranslation">Loading</string>
     <string name="receive_notification" tools:ignore="MissingTranslation">Receive a notification</string>
     <!-- TODO: Remove or change this placeholder text -->
