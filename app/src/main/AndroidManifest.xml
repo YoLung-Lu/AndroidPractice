@@ -35,6 +35,7 @@
             android:name=".activity.CardViewActivity"
             android:label="Constraint">
         </activity>
+        <activity android:name=".activity.KTConstraintLayoutActivity" />
     </application>
 
 </manifest>

@@ -17,6 +17,7 @@ import android.view.View.OnClickListener;
 import android.widget.AdapterView;
 import android.widget.ListView;
 import com.example.luyolung.android_practice.activity.ConstraintLayoutActivity;
+import com.example.luyolung.android_practice.activity.KTConstraintLayoutActivity;
 import com.my.comp.TakePhotoDelegateActivity;
 import com.my.core.protocol.IDrawerViewLayout;
 import com.my.core.protocol.IProgressBarView;
@@ -178,7 +179,7 @@ public class StartActivity
                         @Override
                         public void onClick(View v) {
                             startActivity(new Intent(StartActivity.this,
-                                ConstraintLayoutActivity.class)
+                                KTConstraintLayoutActivity.class)
                                 .setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP));
                         }
                     }),
