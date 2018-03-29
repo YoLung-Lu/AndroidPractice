@@ -19,9 +19,9 @@ class KTConstraintLayoutActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_constraint)
-        val parent = findViewById(R.id.lineargroup) as LinearLayout
+        val parent = findViewById<LinearLayout>(R.id.lineargroup)
 
-        mToolbarView = findViewById(R.id.toolbar) as Toolbar
+        mToolbarView = findViewById<Toolbar>(R.id.toolbar)
         mToolbarView.setOnClickListener {
             setResult(Activity.RESULT_CANCELED)
             finish()

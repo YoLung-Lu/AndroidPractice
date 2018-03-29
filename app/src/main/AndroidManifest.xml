@@ -36,6 +36,7 @@
             android:label="Constraint">
         </activity>
         <activity android:name=".activity.KTConstraintLayoutActivity" />
+        <activity android:name=".activity.RecyclerViewActivity" />
     </application>
 
 </manifest>

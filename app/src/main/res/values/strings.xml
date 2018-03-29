@@ -30,4 +30,6 @@
     <string name="menu_next" tools:ignore="MissingTranslation">Next</string>
     <string name="menu_settings" tools:ignore="MissingTranslation">Settings</string>
     <string name="menu_help_and_feedback" tools:ignore="MissingTranslation"><![CDATA[Help & Feedback]]></string>
+
+    <string name="change_background">Background</string>
 </resources>

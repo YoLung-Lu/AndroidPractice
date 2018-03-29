@@ -24,7 +24,7 @@ public class ConstraintLayoutActivity
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_constraint);
+        setContentView(R.layout.activity_recyclerview);
         LinearLayout parent = (LinearLayout) findViewById(R.id.lineargroup);
 
         mToolbarView = (Toolbar) findViewById(R.id.toolbar);
