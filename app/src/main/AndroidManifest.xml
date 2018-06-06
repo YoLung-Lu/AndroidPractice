@@ -37,6 +37,7 @@
         </activity>
         <activity android:name=".activity.KTConstraintLayoutActivity" />
         <activity android:name=".activity.RecyclerViewActivity" />
+        <activity android:name=".activity.ShareActivity" />
     </application>
 
 </manifest>
