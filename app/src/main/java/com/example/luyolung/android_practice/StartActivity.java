@@ -19,6 +19,7 @@ import android.widget.ListView;
 import com.example.luyolung.android_practice.activity.ConstraintLayoutActivity;
 import com.example.luyolung.android_practice.activity.KTConstraintLayoutActivity;
 import com.example.luyolung.android_practice.activity.RecyclerViewActivity;
+import com.example.luyolung.android_practice.activity.ShareActivity;
 import com.my.comp.TakePhotoDelegateActivity;
 import com.my.core.protocol.IDrawerViewLayout;
 import com.my.core.protocol.IProgressBarView;
@@ -210,6 +211,17 @@ public class StartActivity
                         public void onClick(View v) {
                             startActivity(new Intent(StartActivity.this,
                                                      RecyclerViewActivity.class)
+                                              .setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP));
+                        }
+                    }),
+                new SampleMenuItem(
+                    "Share functionality",
+                    "Hack system share function to record where to share.",
+                    new OnClickListener() {
+                        @Override
+                        public void onClick(View v) {
+                            startActivity(new Intent(StartActivity.this,
+                                                     ShareActivity.class)
                                               .setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP));
                         }
                     }),
